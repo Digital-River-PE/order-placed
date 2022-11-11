@@ -1,14 +1,14 @@
 {
   "vendor": "digitalriverpartnerus",
   "name": "order-placed",
-  "version": "2.16.5-beta.0",
+  "version": "2.16.4-beta.0",
   "title": "Order Placed",
   "description": "",
   "registries": [
     "smartcheckout"
   ],
   "scripts": {
-    "postreleasy": "vtex publish --public"
+    "postreleasy": "vtex publish --verbose"
   },
   "builders": {
     "react": "3.x",
