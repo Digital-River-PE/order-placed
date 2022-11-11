@@ -21,6 +21,7 @@ interface Order {
   storePreferencesData: StorePreferencesData
   creationDate: string
   value: number
+  status: string
 }
 
 interface GiftRegistry {
