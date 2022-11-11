@@ -1,5 +1,4 @@
 import React from 'react'
-import { FormattedMessage } from 'react-intl'
 import { useCssHandles } from 'vtex.css-handles'
 
 import { useOrder } from './components/OrderContext'
