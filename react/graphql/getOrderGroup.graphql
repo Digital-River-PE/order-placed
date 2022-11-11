@@ -346,6 +346,7 @@ query getOrderGroup($orderGroup: String) {
       }
       creationDate
       value
+      status
     }
     totalPickUpParcels {
       address {
