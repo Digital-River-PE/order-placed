@@ -53,6 +53,9 @@
   "op-order-number": {
     "component": "OrderNumber"
   },
+  "op-order-status": {
+    "component": "OrderStatus"
+  },
   "op-order-datetime": {
     "component": "OrderDatetime"
   },
