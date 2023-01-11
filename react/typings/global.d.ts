@@ -21,6 +21,16 @@ interface Order {
   storePreferencesData: StorePreferencesData
   creationDate: string
   value: number
+  customData: CustomData
+}
+
+interface CustomData {
+  customApps: CustomApp[]
+}
+
+interface CustomApp {
+  fields: any
+  id: string
 }
 
 interface GiftRegistry {

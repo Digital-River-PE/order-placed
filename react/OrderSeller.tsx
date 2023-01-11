@@ -13,8 +13,7 @@ const OrderSeller: FC = () => {
   const handles = useCssHandles(CSS_HANDLES)
 
   const storeAccount = runtime.account
-  const orderSeller = order.sellers[0].name
-
+  const orderSeller = order.customData.customApps[0].fields.sellingEntity //order.sellers[0].name
   if (storeAccount === orderSeller) {
     return null
   }
